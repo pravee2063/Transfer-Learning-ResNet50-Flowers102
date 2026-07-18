@@ -1,0 +1,102 @@
+# ===========================
+# Python
+# ===========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+
+.ipynb_checkpoints/
+
+# ===========================
+# Virtual Environments
+# ===========================
+
+venv/
+.venv/
+env/
+ENV/
+
+# ===========================
+# VS Code
+# ===========================
+
+.vscode/
+
+# ===========================
+# PyCharm
+# ===========================
+
+.idea/
+
+# ===========================
+# Operating System Files
+# ===========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Python Packaging
+# ===========================
+
+build/
+dist/
+*.egg-info/
+
+# ===========================
+# Logs
+# ===========================
+
+*.log
+
+# ===========================
+# Environment Variables
+# ===========================
+
+.env
+
+# ===========================
+# TensorFlow Checkpoints
+# ===========================
+
+checkpoints/
+logs/
+tensorboard_logs/
+
+*.ckpt
+*.ckpt.*
+*.index
+*.data-00000-of-00001
+
+saved_model/
+saved_models/
+
+# ===========================
+# Model Weights
+# ===========================
+
+*.h5
+*.keras
+*.pb
+
+# ===========================
+# Downloaded Datasets
+# ===========================
+
+tensorflow_datasets/
+datasets/
+data/raw/
+data/processed/
+
+# ===========================
+# Temporary Files
+# ===========================
+
+*.tmp
+*.temp
